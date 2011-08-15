@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Passatempos</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PalavraCruzada</display-name>
+    <servlet-name>PalavraCruzada</servlet-name>
+    <servlet-class>br.org.ita.passatempo.servlet.PalavraCruzada</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PalavraCruzada</servlet-name>
+    <url-pattern>/PalavraCruzada</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Gera um labirinto aleatoriamente</description>
+    <display-name>Labirinto</display-name>
+    <servlet-name>Labirinto</servlet-name>
+    <servlet-class>br.org.ita.passatempo.servlet.Labirinto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Labirinto</servlet-name>
+    <url-pattern>/Labirinto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Numerox</display-name>
+    <servlet-name>Numerox</servlet-name>
+    <servlet-class>br.org.ita.passatempo.servlet.Numerox</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Numerox</servlet-name>
+    <url-pattern>/Numerox</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PalavraCruzadaSolucao</display-name>
+    <servlet-name>PalavraCruzadaSolucao</servlet-name>
+    <servlet-class>br.org.ita.passatempo.servlet.PalavraCruzadaSolucao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PalavraCruzadaSolucao</servlet-name>
+    <url-pattern>/PalavraCruzadaSolucao</url-pattern>
+  </servlet-mapping>
+</web-app>

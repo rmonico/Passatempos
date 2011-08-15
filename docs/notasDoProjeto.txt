@@ -1,0 +1,16 @@
+Projeto palavra cruzada:
+
+Status atual: falta colocar um botão de correção na tela do jogo.
+
+Problemas encontrados:
+- Método de validez de cruzamento incorreto.
+  Apesar do uso do junit, o programa final falhou devido a problema nas rotinas de verificação de validade de cruzamento. Após a correção do erro constatei que os junits elaborados não cobriram todas as verificações que são feitas nessas rotinas.
+  Ações corretivas: escrever os junits antes de escrever o código, escrever junits para passar em todas as linhas de código.
+
+- Criação da classe de célula após o final da codificação da regra de negócio.
+  No primeiro momento foi entregue um view com a palavra cruzada, sem as dicas, que rodava em modo console, apenas com a preocupação de fazer o algoritmo básico de cruzamento de palavras funcionar.
+Depois desse view pronto, foi necessário mexer em várias classes do programa para implementar a funcionalidade da dica (pois precisou de uma classe específica para isso), o que consumiu quase um dia inteiro de trabalho.
+  Ações corretivas: Modelar primeiro a interface das classes envolvidas antes de codificar as regras de negócio.
+
+- Após a quase conclusão do view, foi detectada a necessidade de usar a classe de PalavraNaMatriz para determinar a disposição da palavra (horizontal ou vertical).
+  Ações corretivas: Levantar as necessidades do visualizador junto com as interfaces das classes.

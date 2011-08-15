@@ -1,0 +1,28 @@
+* Terminar o numerox
+  - Está colocando numeros ao lado de numeros já colocados.
+  - Fazer o viewer.
+  - Fazer um esquema para verificar se o jogo está correto (baseado na palavra cruzada).
+  - Se der tempo montar os junits do projeto
+
+* Labirinto:
+  - Esperando viewer do Emerson.
+
+* Palavra cruzada:
+  - Fazer parte de verificação do jogo
+  - Esperando cadastro de palavras do Emerson.
+
+* Silabox
+  - Fazer apenas se der tempo, aparentemente é só um override do palavra cruzada.
+  - Trocar classe de caractere por uma classe de Sílaba e testar.
+
+* Atividade do Guerra [opcional]
+  - Precisa colocar o link na página de viewer para mostrar uma página com as informações da pessoa.
+  - Refazer o projeto todo.
+  
+* Prova do Guerra [opcional]
+  - Procurar o material do professor na net
+
+* Prova de UML
+
+* Atividade de UML
+  - Precisa entrar no site do professor

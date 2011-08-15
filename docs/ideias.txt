@@ -1,0 +1,46 @@
+palavra cruzada
+Tem que fazer a verificação da resposta
+
+
+silabox
+Dificuldade relativamente pequena, teria apenas que mudar a classe de caractere para alguma coisa que represente uma sílaba.
+Risco de mudanças não previstas: médio
+Modificação no view: na hora que o usuário digitar a palavra, deverá separar pos sílabas, e mostrar uma sílaba por célula.
+
+
+numerox
+O viewer seria similar ao palavra cruzada, teria mais uma implementação da Célula. Talvez a classe de Palavra precise ser mexida para não ter 
+obrigatoriamente uma dica.
+Problemas: Tirar a dica da palavra, montar um algoritmo que tenha apenas uma solução possível.
+
+
+sudoku
+A princípio se trata de um algortimo simples, teria que popular um int[9][9] e tirar os números onde for possível deduzir seus valor depois.
+Maiores problemas: algoritmo de geração.
+
+
+Caça-palavras
+Algoritmo ainda não foi completamente pensado. O view pode ter problemas com o ajax. Estima-se um final de semana para codificar.
+
+
+Labirinto
+É necessário conhecimento de ajax ainda não utilizado. Algoritmo pensado, outro algoritmo similar foi montado em delphi, porém há situações que o
+ algortimo já pensado pode não resolver.
+
+
+jogo das 15 pedras
+Se trata de regras de negócio em ajax, não haveria um servlet rodando por trás, aparentemente simples, porém, não agrega grande valor para o projeto
+ enquanto trabalho escolar.
+
+
+jogo da velha
+View simples baseado em imagens, a verificação de vitória/derrota é simples, o algoritmo de IA pode ser complexo, verificar possibilidade de fazer um jogo
+ à dois.
+
+
+campo minado (?)
+teria uma regra de negócio rodando em servlet para geração, após isso, um ajax serviria apenas para ocultar as minas e verificar derrota/vitória.
+
+
+jogo dos erros (?)
+Problemático, pois envolve tratamento de imagens, talvez com imagens em preto e branco funcione.
