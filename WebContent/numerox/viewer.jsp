@@ -180,6 +180,7 @@ p.dica {
 <br />
 <br />
 <%
+@SuppressWarnings("unchecked")
 	Map<Integer, List<NumeroPosicionado>> bancoNumeros = (Map<Integer, List<NumeroPosicionado>>) request
 			.getAttribute("bancoNumeros");
 
